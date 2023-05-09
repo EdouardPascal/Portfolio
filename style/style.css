@@ -1,0 +1,18 @@
+.menubar
+{
+    display: flex;
+    background-color: cyan;
+    border :2px solid darkblue;
+    padding: 16px;
+    
+}
+
+div{
+    border:2px solid white;
+    
+}
+nav div
+{
+    padding:8px
+   
+}
