@@ -4,15 +4,29 @@
     background-color: cyan;
     border :2px solid darkblue;
     padding: 16px;
-    
+    align-content:flex-end;
+    justify-content: end;
 }
 
-div{
-    border:2px solid white;
+.menubar > div{
+    padding:5px
+  /*  flex:1;*/
+}
+.projects_box
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.projects_box>p
+{
+    display: flex;
+    flex-direction: row;
     
 }
-nav div
+img.stockmaster_trading
 {
-    padding:8px
-   
+    width: 400px;
+    float:right;
+  margin:0 0 0 15px;
 }
